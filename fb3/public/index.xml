@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fabricación Digital on José Foncea</title>
+    <link>https://cotefoncea.github.io/fb3/</link>
+    <description>Recent content in Fabricación Digital on José Foncea</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate>
+    
+	<atom:link href="https://cotefoncea.github.io/fb3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mecanizado CNC</title>
+      <link>https://cotefoncea.github.io/fb3/docs/mecanizado-cnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://cotefoncea.github.io/fb3/docs/mecanizado-cnc/</guid>
+      <description>Primera exploración a las Planimetrías a través de las renombradas sillas Eames.</description>
+    </item>
+    
+    <item>
+      <title>Planimetría Silla Eames</title>
+      <link>https://cotefoncea.github.io/fb3/docs/planimetr%C3%ADa/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://cotefoncea.github.io/fb3/docs/planimetr%C3%ADa/</guid>
+      <description>Primera exploración a las Planimetrías a través de las renombradas sillas Eames.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://cotefoncea.github.io/fb3/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://cotefoncea.github.io/fb3/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+  </channel>
+</rss>
