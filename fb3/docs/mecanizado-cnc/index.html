@@ -90,12 +90,12 @@
   <h4>Documentación</h4>
   <ul>
     
-    <li class="active ">
-      <a href="https://cotefoncea.github.io/fb3/docs/mecanizado-cnc/">Mecanizado CNC</a>
-    </li>
-    
     <li class="">
       <a href="https://cotefoncea.github.io/fb3/docs/planimetr%C3%ADa/">Planimetría Silla Eames</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://cotefoncea.github.io/fb3/docs/mecanizado-cnc/">Mecanizado CNC</a>
     </li>
     
     <li class="">
@@ -131,13 +131,26 @@
 <li>Bronce</li>
 </ol>
 <h1 id="aplicación-de-mecanizado-cnc-silla-fresia">Aplicación de Mecanizado CNC: Silla Fresia</h1>
+<h2 id="how-to-do">How to do:</h2>
+<p>La primera parte del proceso de fabricación de la silla es el corte de las principales estructuras de esta, mediante la Router CNC. Este proceso se lleva a cabo a través de Fusion 360, de manera de poder simularlo y estar seguros sobre qué partes cortar y cómo hacerlo, considerando algunas variables como profundidad de corte de la fresa, frecuencia de corte por pieza, entre otras. Así, el proceso de corte de las patas, larguero y del travesaño son las siguientes:</p>
+<h3 id="1-corte-del-contorno-de-la-pieza-función-contour---patas-travesaño-y-larguero">1. Corte del contorno de la pieza (Función Contour) - Patas, Travesaño y Larguero</h3>
+<p>Como se puede apreciar en las imágenes de a continuación, el único objetivo de esta etapa es generar un corte por contorno de la pieza, vale decir, darle la forma correspondiente a la figura como tal, formando su estructura externa. Tenemos que asegurarnos de colocar en 6 mm la opción Maximum Roughing Step-down de la fresa, de manera de poder cortar adecuadamente la superficie objetivo. Además, es importante considerar que una vez cortado el contorno de la pieza, esta naturalmente podría caer, produciendo resultados indeseados en ella y en el resto del material trabajado, poniendo en riesgo también la integridad de quienes se encuentren cerca. Para eso es que se deben agregar los Tabs, una pequeña pestaña o espacio que la máquina no corta en su desplazamiento, con el objetivo de mantener fija la pieza después de terminar el trabajo en ella. Estas estructuras se aprecian en la imagen inferior del compilado de pantallazos de a continuación.</p>
+<p><img src="/fb3/img/contur1.png" alt="P1"></p>
+<h3 id="2-primer-sacado-función-pocket---patas-travesaño-y-larguero">2. Primer sacado (Función Pocket) - Patas, Travesaño y Larguero</h3>
+<p>Esta fase consiste en lograr un primer sacado al lugar de unión de los pares de patas que luego se unirán entre sí, es decir, cada pata de la silla está compuesta por la unión de 2 estructuras. Al igual que el caso anterior, para asegurar un corte y desempeño eficiente de la fresa es necesario colocar la opción Maximum Roughing Step-down en 6 mm, aumentando la durabilidad de la fresa misma y de la máquina. El recorrido de esta etapa se aprecia a continuación.</p>
+<p><img src="/fb3/img/sacado.png" alt="P1"></p>
+<h3 id="3-segundo-sacado-función-contour---patas-travesaño-y-larguero">3. Segundo sacado (Función Contour) - Patas, Travesaño y Larguero</h3>
+<p>Esta etapa tiene por objetivo lograr el sacado interno dentro del primer sacado, para lograr generar el espacio en la madera mediante el cual las estructuras correspondientes de cada pata se unirán. Algo muy importante de señalar es la morfología redonda que produce la Router al realizar este trabajo, y es que como se encuentra cortando al interior del material mismo, y no realizando el perímetro de la pieza, lo natural es que forme terminaciones de carácter con ángulos no rectos, lo cual es totalmente normal si es que se piensa en el movimiento revolucionado que hace la frase al cortar.</p>
+<p><img src="/fb3/img/contur2.png" alt="P1"></p>
+<h2 id="el-antes-y-el-después">El antes y el después</h2>
 <p><img src="/fb3/img/patas.png" alt="P1"></p>
+<h2 id="video-explicativo-de-las-fases-mencionadas">Video explicativo de las fases mencionadas</h2>
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/fb3/img/patas&#43;extra.mp4"  type="asiento/mp4">
+    <source src="/fb3/img/patas+extra.mp4" type="video/mp4">
     </video>
 </div>
 <div>
@@ -153,13 +166,19 @@
 </div>
 
 
+<h3 id="3-corte-del-contorno-de-la-pieza-función-contour---asiento">3. Corte del contorno de la pieza (Función Contour) - Asiento</h3>
+<p>Al igual que en las etapas anteriores, se debera generar el perímetro del asiento mediante la función de contour, estableciendo nuevamente en 6 mm la opción Maximum Roughing Step-down de la fresa.</p>
+<h3 id="4-trazado-en-la-superficie-del-asiento-función-trace---asiento">4. Trazado en la superficie del asiento (Función Trace) - Asiento</h3>
+<p>Teniendo la pieza del asiento se procede con la función Trace, la cual no corta en su totalidad el material (opción Stock to Leave) que se esté trabajando, sino que lo traza, de manera de conseguir que la madera se pueda doblar para así generar una forma lo más ergonómica posible.</p>
+<h2 id="el-antes-y-el-después-1">El antes y el después</h2>
 <p><img src="/fb3/img/asiento.png" alt="P1"></p>
+<h2 id="video-explicativo-de-las-fases-mencionadas-1">Video explicativo de las fases mencionadas</h2>
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/fb3/img/asiento"  type="asiento/mp4">
+    <source src="/fb3/img/asiento.mp4" type="video/mp4">
     </video>
 </div>
 <div>
